@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    font-size: 15px;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.my-gap{
+    padding: 5%;
+}
+.my-button{
+    width: 110px;
+    height: 35px;
+    background-color: gold;
+    font-family: 'roboto', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    border: 0;
+    margin-top: 3rem;
+}
+.my-button:hover{
+    background-color: #fff;
+    color: gold;
+    border: 2px solid gold;
+}
+/* navigation area starts here */
+#my-navigation{
+    background-color: rgb(105, 1, 105);
+    padding: 5px;
+    margin-bottom: 0;
+}
+#my-navigation .navbar-toggle{
+    display: block;
+    border-radius: 50%;
+    border: 0;
+    background: none;
+}
+
+#my-navigation .navbar-header{
+    float: none;
+    font-weight: bold;
+    color: #fff;
+}
+#my-navigation .navbar-right{
+    float: left !important;
+}
+#my-navigation .icon-bar-left{
+    float: left;
+}
+#my-navigation .navbar-header a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+#my-navigation .icon-bar{
+  background-color:#fff;
+  
+}
+#my-navigation ul li a{
+    color: #fff;
+}
+/* banner area starts here */
+.banner{
+    width: 100%;
+    margin-top: 0;
+}
+.left-intro{
+    width: 50%;
+    background-color: rgb(236, 236, 236);
+}
+.myright-img{
+    width: 50%;
+}
+.left-intro h1{
+    font-size: 3.5rem;
+    margin-left: 15%;
+    margin-top: 30%;
+    margin-bottom: 2rem;
+}
+.left-intro p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-left: 15%;
+    margin-top: 1rem;
+}
+.my-button-1{
+    width: 110px;
+    height: 35px;
+    background-color: gold;
+    font-family: 'roboto', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    border: 0;
+    margin-left: 15%;
+    margin-top: 3rem;
+}
+.my-button-1:hover{
+    background-color: #fff;
+    color: gold;
+    border: 2px solid gold;
+}
+
+.myright-img img{
+    width: 100%;
+}
+/* services area starts here */
+.services h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.my-service img{
+    width: 80%;
+    border-radius: 100%;
+}
+.my-service h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.my-service p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+}
+.my-service a{
+    text-decoration: none;
+    color: gold;
+}
+/* about us */
+.about-us{
+    width: 100%;
+    background-image: url("../images/about-bg.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 3rem;
+    
+}
+.about-us h2{
+    font-size: 2rem;
+    margin-top: 0;
+    position: absolute;
+    left: 45%;
+    top: -7%;
+}
+.about-us img{
+    width: 60%;
+    margin-top: 1rem;
+}
+.about-us p{
+    font-size: 1.2rem;
+    margin-top: 7rem;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+/* why chose us area*/
+.sectionchoose-us h2{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+.paint-brush .fa{
+    border: 2px solid gold;
+    padding: 8%;
+    border-radius: 100%;
+    font-size: 2rem;
+    color: gold;
+}
+.paint-brush .fa:hover{
+    background-color: gold;
+    color: #fff;
+}
+.sectionchoose-us h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.sectionchoose-us p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 5%;
+    padding-top: 0;
+}
+
+/* latest news*/
+.latest-news h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.news-section{
+    border: 1px solid rgb(231, 231, 231);
+    
+}
+.news-section img{
+    width: 100%;
+}
+.news-section h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.news-section p{
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 5%;
+}
+.news-section h4{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+/* contact us */
+
+.contact-us h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+form #myform{
+    background-color: rgb(235, 235, 235);
+    border: 0;
+}
+.contact-us img{
+    width: 100%;
+    border-radius: 5%;
+}
+/* location area starts here */
+.purple{
+    width: 100%;
+    background-color: rgb(105, 1, 105);
+    color: #fff;
+}
+.my-location h3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+.my-location p{
+    font-size: 1rem;
+    text-align: left;
+   
+}
+/* footer area starts here */
+.social .fa {
+    font-size: 1.2rem;
+    padding: 7px;
+    color: purple;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 1.5rem;
+
+}
+/* media query starts here */
+@media only screen and (max-width: 1100px){
+    .left-intro h1{
+        font-size: 2rem;
+        margin-left: 10%;
+    }
+    .left-intro p{
+        font-size: 1rem;
+        margin-left: 10%;
+    }
+    .my-button-1{
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .left-intro h1{
+        font-size: 1.2rem;
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 0.5rem;
+    }
+    .left-intro p{
+        font-size: 0.6rem;
+        margin-left: 5%;
+    }
+    .my-button-1{
+        width: 90px;
+        height: 32px;
+        font-size: 0.8rem;
+        margin-left: 5%;
+        margin-top: 1rem;
+    }
+    .services h2{
+        font-size: 1.5rem;
+    }
+    .my-service{
+        margin-bottom: 4rem;
+    }
+    .my-service img{
+        width: 60%;
+    }
+    .about-us h2{
+        font-size: 1.5rem;
+        margin-top: 0;
+        position: absolute;
+        left: 38%;
+        top: -7%;
+    }
+    .about-us p{
+        margin-top: 3rem;
+    }
+    .sectionchoose-us{
+        margin-top: 4rem;
+    }
+    .sectionchoose-us h2{
+        margin-bottom: 2rem;
+    }
+    .latest-news{
+        margin-top: 4rem;
+    }
+    .news-section{
+        margin-bottom: 2rem;
+    }
+    .my-button{
+        margin-top: 1rem;
+    }
+    .contact-us img{
+        margin: 3rem 0;
+    }
+    .my-location h3{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .my-location p{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}

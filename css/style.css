@@ -352,4 +352,8 @@ form #myform{
         margin-left: 5%;
         margin-top: 0.7rem;
     }
+    .services h2{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
 }
